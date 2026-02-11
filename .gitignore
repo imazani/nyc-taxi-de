@@ -1,0 +1,26 @@
+# Python bytecode + caches
+__pycache__/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+
+# Local env files
+.env
+.venv/
+
+# Data (never commit raw datasets)
+data/
+data/**/*.csv
+data/**/*.parquet
+
+# dbt artifacts
+dbt/target/
+dbt/dbt_packages/
+dbt/logs/
+
+# OS junk
+.DS_Store
+Thumbs.db
